@@ -1,0 +1,40 @@
+.form {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 5px;
+  width: 25%;
+  border: 3px solid black;
+  margin-left: 40%;
+  height: 350px;
+}
+
+#textBox {
+  font-size: 25px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  border: 2px solid;
+}
+
+label {
+  font-size: 20px;
+}
+
+#submit {
+  font-size: 15px;
+  background-color: hsl(0, 100%, 50%);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+#submit:hover {
+  background-color: hsl(0, 100%, 65%);
+}
+
+p {
+  font-size: 25px;
+  font-weight: bold;
+}
